@@ -1,22 +1,15 @@
-
-import './App.css'
+import "./App.css";
+import DaisyNav from "./components/DaisyNav/DaisyNav";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-
-
   return (
     <>
-      <section id="center">
-     
-        <div>
-          <h1 className='text-3xl font-bold underline'>Get started</h1>
-
-          
-        </div>
-      
-      </section>
+      <NavBar></NavBar>
+      <DaisyNav></DaisyNav>
+      <h1 className="text-3xl font-bold underline">Get started</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
